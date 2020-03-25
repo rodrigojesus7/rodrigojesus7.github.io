@@ -1,0 +1,91 @@
+.fashion
+{
+    padding: 3px;
+    font-size: 16px;
+    border-color: #cccccc;
+    border-width: 3px;
+    border-radius: 100px;
+    border-style: hidden;
+    font-family: sans-serif;
+    background: #f0f0f0;
+    width: 170px;
+    
+}
+
+.campo
+{
+    margin: 5px;
+}
+
+.select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}    .select select {
+    font-family: 'Arial';
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 3px 10px;
+    width: 175px;
+    height: 24px;
+    outline: 0;
+    border: 0px hidden #000000;
+    border-radius: 100px;
+    background: #f0f0f0;
+    color: #7b7b7b;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.select select::-ms-expand {
+    display: none;
+}
+.select select:hover,
+.select select:focus {
+    color: #000000;
+    background: #cccccc;
+}
+.select select:disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+
+.btnfashion {
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    background-color:#ededed;
+    border-radius:6px;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#777777;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+}
+.btnfashion:hover {
+    background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color:#dfdfdf;
+}
+.btnfashion:active {
+    position:relative;
+    top:1px;
+}
+
+
+body{
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100%;
+    background-color: #e9af03;
+    
+}
+
+
